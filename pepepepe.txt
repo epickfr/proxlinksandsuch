@@ -1,143 +1,44 @@
-export interface LinkItem {
-  label: string
-  url: string
-  category: string
-}
+# ╔══════════════════════════════════════════════════════╗
+# ║  Prox Loader - Links List                           ║
+# ║  Format:  label | url | category                    ║
+# ║  Lines starting with # are comments                 ║
+# ║  Blank lines are ignored                            ║
+# ╚══════════════════════════════════════════════════════╝
 
-export const links: LinkItem[] = [
-  {
-    label: "Just a moment...",
-    url: "https://vanillacoke.co.uk/",
-    category: "Proxies",
-  },
-  {
-    label: "Saturn",
-    url: "https://vcsayt.mkhq.co.kr/",
-    category: "Proxies",
-  },
-  {
-    label: "vcsa.mkhq.co.kr",
-    url: "https://vcsa.mkhq.co.kr/",
-    category: "Proxies",
-  },
-  {
-    label: "Saturn",
-    url: "https://vcsayt-saturn.project-mind.info/",
-    category: "Proxies",
-  },
-  {
-    label: "Saturn",
-    url: "https://welovevcsa.readywintersprings.org/",
-    category: "Proxies",
-  },
-  {
-    label: "Saturn",
-    url: "https://vcsa-yt.blogspot.com.realkof.ru/",
-    category: "Proxies",
-  },
-  {
-    label: "VAPOR v4",
-    url: "https://pipseducationfund.org/",
-    category: "Proxies",
-  },
-  {
-    label: "VAPOR v4",
-    url: "https://sealsareintelligent.lat/",
-    category: "Proxies",
-  },
-  {
-    label: "Truffled - Education",
-    url: "https://shoeyenn.kfa.cl/",
-    category: "Education",
-  },
-  {
-    label: "Infamous",
-    url: "https://clever.com.londonwhiteeagles.ca/",
-    category: "Education",
-  },
-  {
-    label: "Infamous",
-    url: "https://clever.com.srijanakhadka.com.np/",
-    category: "Education",
-  },
-  {
-    label: "Infamous",
-    url: "https://clever.com.dmc219.com/",
-    category: "Education",
-  },
-  {
-    label: "Classroom",
-    url: "https://computer.ellegisladordigital.com/onboarding/",
-    category: "Education",
-  },
-  {
-    label: "Classroom",
-    url: "https://digital.ellegisladordigital.com/onboarding/",
-    category: "Education",
-  },
-  {
-    label: "Classroom",
-    url: "https://band.lexingtonbroadband.org/onboarding/",
-    category: "Education",
-  },
-  {
-    label: "Classroom",
-    url: "https://glacier-water.waterloobae.com/onboarding/",
-    category: "Education",
-  },
-  {
-    label: "Study.com",
-    url: "https://eximlab.org/",
-    category: "Education",
-  },
-  {
-    label: "IXL",
-    url: "https://highschoolmathteachers.com/",
-    category: "Education",
-  },
-  {
-    label: "thisonehere.mkhq.co.kr",
-    url: "https://thisonehere.mkhq.co.kr/",
-    category: "Other",
-  },
-  {
-    label: "showtime.readywintersprings.org",
-    url: "https://showtime.readywintersprings.org/",
-    category: "Other",
-  },
-  {
-    label: "thelights.realkof.ru",
-    url: "https://thelights.realkof.ru/",
-    category: "Other",
-  },
-  {
-    label: "asic.amrityadav.com.np",
-    url: "https://asic.amrityadav.com.np/",
-    category: "Other",
-  },
-  {
-    label: "saintpablo.miraur.ro",
-    url: "https://saintpablo.miraur.ro/",
-    category: "Other",
-  },
-  {
-    label: "freedom",
-    url: "https://freedom.waitingforthedyingtodiedown.com/",
-    category: "Other",
-  },
-  {
-    label: "VAPOR v4",
-    url: "https://watervapor.space/",
-    category: "Other",
-  },
-  {
-    label: "Bart Blast",
-    url: "https://bartblast.itch.io/bart-blast",
-    category: "Games",
-  },
-  {
-    label: "Bart Blast - Download Now",
-    url: "https://epickfr.github.io/bartblast/",
-    category: "Games",
-  },
-]
+# ── Proxies ──
+Just a moment... | https://vanillacoke.co.uk/ | Proxies
+Saturn | https://vcsayt.mkhq.co.kr/ | Proxies
+vcsa.mkhq.co.kr | https://vcsa.mkhq.co.kr/ | Proxies
+Saturn | https://vcsayt-saturn.project-mind.info/ | Proxies
+Saturn | https://welovevcsa.readywintersprings.org/ | Proxies
+Saturn | https://vcsa-yt.blogspot.com.realkof.ru/ | Proxies
+VAPOR v4 | https://pipseducationfund.org/ | Proxies
+VAPOR v4 | https://sealsareintelligent.lat/ | Proxies
+
+# ── Education ──
+Truffled - Education | https://shoeyenn.kfa.cl/ | Education
+Infamous | https://clever.com.londonwhiteeagles.ca/ | Education
+Infamous | https://clever.com.srijanakhadka.com.np/ | Education
+Infamous | https://clever.com.dmc219.com/ | Education
+Classroom | https://computer.ellegisladordigital.com/onboarding/ | Education
+Classroom | https://digital.ellegisladordigital.com/onboarding/ | Education
+Classroom | https://band.lexingtonbroadband.org/onboarding/ | Education
+Classroom | https://glacier-water.waterloobae.com/onboarding/ | Education
+Classroom | https://glacier-water.waterloobae.com/onboarding/ | Education
+Study.com | https://eximlab.org/ | Education
+IXL | https://highschoolmathteachers.com/ | Education
+
+# ── Games ──
+Bart Blast | https://bartblast.itch.io/bart-blast | Games
+Bart Blast - Download Now | https://epickfr.github.io/bartblast/ | Games
+
+# ── Other ──
+thisonehere.mkhq.co.kr | https://thisonehere.mkhq.co.kr/ | Other
+showtime.readywintersprings.org | https://showtime.readywintersprings.org/ | Other
+showtime.readywintersprings.org | https://showtime.readywintersprings.org/ | Other
+thelights.realkof.ru | https://thelights.realkof.ru/ | Other
+thelights.realkof.ru | https://thelights.realkof.ru/ | Other
+asic.amrityadav.com.np | https://asic.amrityadav.com.np/ | Other
+saintpablo.miraur.ro | https://saintpablo.miraur.ro/ | Other
+freedom | https://freedom.waitingforthedyingtodiedown.com/ | Other
+VAPOR v4 | https://watervapor.space/ | Other
